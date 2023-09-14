@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Северяночка</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.min.css" />
+</head>
+
+<body>
+  <a id="backtop" href="#">
+    <img src="image/home/arr.svg" alt="arrow">
+  </a>
+  <div id="loader">
+    <div class="loader"></div>
+  </div>
+  <header>
+    <nav id="navbar">
+       <div class="container navbar__container">
+          <div class="navbar__logo">
+             <a href="index.html"><img class="logo__face" src="image/home/logo-face.png" alt="">
+                <img class="logo__title" src="image/home/logo.png" alt=""></a>
+          </div>
+          <div class="navbar__catalog">
+             <button class="burger"><img src="image/home/menu.svg" alt=""></button>
+             <a class="navbar__link" href="categories.html">Каталог</a>
+          </div>
+          <div class="navbar__input ">
+             <input class="search-input" type="text" placeholder="Найти товар">
+             <img src="image/home/lupa.png" alt="">
+          </div>
+          <div class="navbar__menu">
+             <div class="navbar__menu__heart">
+
+                <a href="favorite.html">
+                   <img src="image/home/hearth.png" alt="">
+                   <h3>Избранное</h3>
+                   <span class="favorite-count  badge bg-primary"></span>
+                </a>
+             </div>
+             <div class="navbar__menu__product">
+
+                <a href="products.html">
+                   <img src="image/home/product.png" alt="fdbc">
+                   <h3>продукты</h3>
+                </a>
+             </div>
+             <div class="navbar__menu__cart">
+                <a href="cart.html">
+                   <img src="image/home/cart.png" alt="">
+                      <h3>Корзина<h3>
+                      <span class="cart-count badge bg-primary"></span>
+                </a>
+             </div>
+          </div>
+          <div class="navbar__account">
+            <button class="modal-open-btn">
+              <img class="milliy" src="image/image.jpg" alt="">
+              <h2>Shohnazar</h2>
+              <img class="nav__acc" src="image/home/arrow.png" alt="">
+           </button>
+          </div>
+       </div>
+       <ul class="container menu d-none"></ul>
+       <div class="modal">
+        <div class="modal-body">
+          <form class="login-form" novalidate>
+            <div class="input-group">
+              <h2 class="form-title">Вход</h2>
+              <input required type="text" placeholder="username" />
+              <p class="valid-feedback">Thanks</p>
+              <p class="invalid-feedback">Please fill username</p>
+            </div>
+            <div class="input-group">
+              <input required type="password" placeholder="password" />
+              <p class="valid-feedback">Thanks</p>
+              <p class="invalid-feedback">Please fill password</p>
+            </div>
+            <button type="submit" class="modal-btn">Вход</button>
+          </form>
+        </div>
+        <button class="modal-close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3536 5.64645C18.5488 5.84171 18.5488 6.15829 18.3536 6.35355L6.35355 18.3536C6.15829 18.5488 5.84171 18.5488 5.64645 18.3536C5.45118 18.1583 5.45118 17.8417 5.64645 17.6464L17.6464 5.64645C17.8417 5.45118 18.1583 5.45118 18.3536 5.64645Z" fill="#414141"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64645 5.64645C5.84171 5.45118 6.15829 5.45118 6.35355 5.64645L18.3536 17.6464C18.5488 17.8417 18.5488 18.1583 18.3536 18.3536C18.1583 18.5488 17.8417 18.5488 17.6464 18.3536L5.64645 6.35355C5.45118 6.15829 5.45118 5.84171 5.64645 5.64645Z" fill="#414141"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+ </header>
+  <main>
+    <section id="hero">
+      <div class="container hero">
+        <img src="image/home/hero.png" alt="">
+        <h1>Доставка бесплатно от 1000 ₽</h1>
+
+      </div>
+    </section>
+    <section id="action">
+      <div class="container action">
+        <div class="action__header">
+          <h1>Акции</h1>
+          <div class="action__title">
+            <a href="products.html">Все продукты </a>
+            <img src="image/home/link.svg" alt="">
+          </div>
+        </div>
+        <div class="action__item">
+
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="container news">
+        <div class="news__header">
+          <h1>Новинки</h1>
+          <div class="news__title">
+            <a href="products.html">Все продукты </a>
+            <img src="image/home/link.svg" alt="">
+          </div>
+        </div>
+        <div class="news__item">
+
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container news">
+        <div class="news__header">
+          <h1>Покупали раньше</h1>
+          <div class="news__title">
+            <a href="products.html">Все продукты </a>
+            <img src="image/home/link.svg" alt="">
+          </div>
+        </div>
+        <div class="shop__item">
+        </div>
+      </div>
+    </section>
+
+    <section id="app">
+      <div class="container app">
+        <h2 class="app__title">
+          Специальные предложения
+        </h2>
+        <div class="app__item">
+          <!-- <div class="app__item__left">
+            <div class="left__text">
+              <h3>Оформите карту «Северяночка»</h3>
+              <p>И получайте бонусы при покупке в магазинах и на сайте</p>
+            </div>
+            <img src="image/home/app1.png" alt="">
+          </div>
+          <div class="app__item__right">
+            <div class="left__text">
+              <h3>Покупайте акционные товары</h3>
+              <p>И получайте вдвое больше бонусов</p>
+            </div>
+            <img src="image/home/app2.png" alt="">
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+      <div class="container map">
+        <h2 class="app__title">
+          Наши магазины
+        </h2>
+        <div class="w3-bar w3-black tabs-btn">
+          <button class="w3-bar-item w3-button tab-btn active" onclick="openCity('London')">п.Щельяюр</button>
+          <button class="w3-bar-item w3-button tab-btn" onclick="openCity('Chilonzor')">Chilonzor</button>
+          <button class="w3-bar-item w3-button tab-btn" onclick="openCity('Xadra')">Xadra</button>
+          <button class="w3-bar-item w3-button tab-btn" onclick="openCity('Chimboy')">Chimboy</button>
+
+        </div>
+        <div id="London" class="city">
+          <img class="maps2" src="image/home/map1.png" alt="">
+        </div>
+
+        <div id="Chilonzor" class="city" style="display:none">
+          <img class="maps2" src="image/home/map2.png" alt="">
+        </div>
+
+        <div id="Xadra" class="city" style="display:none">
+          <img class="maps2" src="image/home/map3.png" alt="">
+        </div>
+
+        <div id="Chimboy" class="city" style="display:none">
+          <img class="maps2" src="image/home/map2.png" alt="">
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="surface">
+      <div class="container surface">
+        <div class="surface__header">
+          <h1>Статьи</h1>
+          <div class="surface__title">
+            <a href="articles.html">Все статьи </a>
+            <img src="image/home/link.svg" alt="">
+          </div>
+        </div>
+        <div class="surface__items">
+          
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container footer">
+      <img src="image/home/footer-logo.png" alt="">
+      <div class="footer__link">
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="vacancy.html">Вакансии</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="#">Политика обработки персональных данных</a></li>
+      </div>
+      <div class="footer__social">
+        <img src="image/home/instagram.svg" alt="">
+        <img src="image/home/vkontakte.svg" alt="">
+        <img src="image/home/twitter.svg" alt="">
+        <img src="image/home/ok.svg" alt="">
+      </div>
+      <div class="footer__phone">
+        <img src="image/home/phone.svg" alt="">
+        <h3><a href="tel:+998991431814">+998 99 143 18 14</a></h3>
+      </div>
+    </div>
+    <div class="container dark__footer">
+      <h4>Дизайн</h4>
+      <img src="image/home/zasovskiy.svg" alt="">
+    </div>
+    <div class="container footer__link2">
+      <div class="footer__link2">
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="vacancy.html">Вакансии</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="#">Политика обработки персональных данных</a></li>
+      </div>
+    </div>
+
+  </footer>
+  <footer id="footer__fixed">
+    <div class="container footer__fixed">
+      <div class="fixed__menu">
+        <a href="category.html"><img src="image/home/footer-mune].png" alt="">
+          <h6>Каталог</h6>
+        </a>
+      </div>
+      <div class="fixed__menu">
+        <a href="favorite.html"><img src="image/home/hearth.png" alt="">
+          <h6>Избранное</h6>
+        </a>
+      </div>
+      <div class="fixed__menu">
+        <a href="#"><img src="image/home/product.png" alt="">
+          <h6>Заказы</h6>
+        </a>
+      </div>
+      <div class="fixed__menu">
+        <a href="cart.html"><img src="image/home/cart.png" alt="">
+          <h6>Корзина</h6>
+        </a>
+      </div>
+      <div class="fixed__menu">
+        <img src="image/home/accaunt.png" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="js/tabs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/categories-data.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/products.js"></script>
+
+</body>
+
+</html>
